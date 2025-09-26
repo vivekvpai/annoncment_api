@@ -26,7 +26,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
                     a.view_count, 
                     a.timestamp,
                     u.user_name,
-                    c.category_name
+                    c.category_name,
+                    c.category_id
                 FROM 
                     announcements a
                 INNER JOIN 
